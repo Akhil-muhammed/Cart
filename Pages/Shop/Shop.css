@@ -1,0 +1,40 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+   
+}
+
+.product{
+    border-radius: 15px;
+    width: 330px;
+    height: 450px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    color: black;
+    border: 1px gray;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+.addToCartBttn{
+    border-radius: 10px;
+    height: 30px;
+}
+.addToCartBttn:hover{
+  background-color: black;
+  color: #fff;
+}
+.sbtn{
+    height: 20px;
+    width: 25px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
